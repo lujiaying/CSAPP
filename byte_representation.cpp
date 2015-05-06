@@ -19,7 +19,7 @@ void show_int(int x) {
 	show_bytes((byte_pointer)&x, sizeof(int));
 }
 
-void show_float(int x) {
+void show_float(float x) {
 	show_bytes((byte_pointer)&x, sizeof(float));
 }
 
